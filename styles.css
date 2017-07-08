@@ -1,11 +1,16 @@
 body{
-background:#33ccff
+background-image: url(background.png);
 }
 #Taittinger{
 width: 375px;
+margin: 15px;
 }
 #NotreDame{
   width: 422px;
+  margin: 15px;
+}
+#ChampagneRegion{
+  margin: 15px;
 }
 #Homepage{
   width:100%;
