@@ -20,3 +20,13 @@ h1{
   font-family: Papyrus;
   text-align: center;
 }
+/* unvisited link */
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: purple;
+    text-decoration: none;
+  }
