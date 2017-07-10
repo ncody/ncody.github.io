@@ -1,9 +1,10 @@
 body{
-background-image: url(background.png);
+  background-color: lightblue;
+  background-image: url(background.png);
 }
 #Taittinger{
-width: 375px;
-margin: 15px;
+  width: 375px;
+  margin: 15px;
 }
 #NotreDame{
   width: 422px;
@@ -31,10 +32,11 @@ a:visited {
     color: purple;
     text-decoration: none;
   }
-  .title{
-  font-family: Papyrus;
+.title{
+  font-family: Papyrus, Arial, Serif;
   }
   h2{
     text-decoration-line: underline;
     padding: 0px;
     margin: 5px;
+}
