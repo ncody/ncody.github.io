@@ -2,31 +2,42 @@ body{
   background-color: lightblue;
   background-image: url(background.png);
 }
+
 #Taittinger{
   width: 375px;
   margin: 15px;
 }
+
 #NotreDame{
   width: 422px;
   margin: 15px;
 }
+
 #ChampagneRegion{
   margin: 15px;
 }
+
 #Homepage{
   width:100%;
   height: 300px;
 }
-@media screen and (max-width: 550px) {
-  #Homepage {
-    height: 150px;
-  }
-}
+
 h1{
   text-align: center;
   border: 2px solid black;
   padding: 10px 5px 5px 5px;
 }
+
+.title{
+  font-family: Papyrus, Arial, Serif;
+  }
+
+h2{
+    text-decoration-line: underline;
+    padding: 0px;
+    margin: 5px;
+}
+
 /* unvisited link */
 a:link {
     color: blue;
@@ -36,13 +47,23 @@ a:link {
 a:visited {
     color: purple;
     text-decoration: none;
-  }
-.title{
-  font-family: Papyrus, Arial, Serif;
-  }
-  h2{
-    text-decoration-line: underline;
-    padding: 0px;
-    margin: 5px;
 }
+
+@media screen and (max-width: 620px) {
+  #Homepage {
+    height: 150px;
+  }
+  h1{
+    font-size: 26px;
+  }
+  }
+
+@media screen and (max-width: 450px) {
+  #Homepage {
+    height: 100px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  }
 
